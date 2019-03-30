@@ -1,0 +1,20 @@
+@import '/../../../styles';
+
+h1:before,
+h1:after {
+  content:'';
+  display: inline-block;
+  width: 40px;
+  height: 5px;
+  border-top: 1px solid black;
+  vertical-align: middle;
+  margin: 0 20px 0 20px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.body-text {
+  background-color: white;
+}

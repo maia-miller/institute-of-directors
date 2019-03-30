@@ -38,12 +38,21 @@ $brand-grey-dark: #717171;
 
 .nav-title {
   font-family: 'IodSansMed', sans-serif;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .nav-subtitle {
   font-family: 'IodSans', sans-serif;
-  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+.body-title {
+  font-family: 'IodSansMed', sans-serif;
+  &.underline {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: $brand-blue;
+  }
 }
 
 /* Graph fonts */
