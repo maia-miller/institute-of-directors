@@ -1,1 +1,125 @@
-/* You can add global styles to this file, and also import other style files */
+/* Responsive settings */
+
+/* Imports */
+// @import '/styles/bootstrap-variable';
+
+/* Color system */
+$brand-blue: #074F8A;
+$brand-blue-dark: #000322;
+$brand-blue-light: #3D4C6D;
+$brand-grey: #EBF1F1;
+$brand-grey-dark: #717171;
+
+.blue {
+  color: $brand-blue;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+/* Typography */
+.title {
+  font-family: 'IodSerifMed', serif;
+}
+
+.title-it {
+  font-family: 'IodSerifMedIt', serif;
+}
+
+.block-subtitle {
+  font-family: 'IodSerif', serif;
+  color: $brand-blue;
+}
+
+.nav-title {
+  font-family: 'IodSansMed', sans-serif;
+  text-transform: capitalize;
+}
+
+.nav-subtitle {
+  font-family: 'IodSans', sans-serif;
+  text-transform: capitalize;
+}
+
+/* Graph fonts */
+.graph-title {
+  font-family: 'IodSerif', serif;
+}
+
+.graph-text {
+  font-family: 'IodSans', sans-serif;
+}
+
+.graph-text-title {
+  font-family: 'IodSansMed', sans-serif;
+}
+
+.graph-number {
+  font-family: 'IodSansBold', sans-serif;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'MinionPro';
+  src: url('/assets/Fonts/MinionPro-Regular.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSansBlack';
+  src: url('/assets/Fonts/UntitledSans-Black.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSansBold';
+  src: url('/assets/Fonts/UntitledSans-Bold.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSansLight';
+  src: url('/assets/Fonts/UntitledSans-Light.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSansLightIt';
+  src: url('/assets/Fonts/UntitledSans-LightItalic.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSansMed';
+  src: url('/assets/Fonts/UntitledSans-Medium.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSans';
+  src: url('/assets/Fonts/UntitledSans-Regular.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSansRegIt';
+  src: url('/assets/Fonts/UntitledSans-RegularItalic.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSerifBold';
+  src: url('/assets/Fonts/UntitledSerif-Bold.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSerifMed';
+  src: url('/assets/Fonts/UntitledSerif-Medium.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSerifMedIt';
+  src: url('/assets/Fonts/UntitledSerif-MediumItalic.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSerif';
+  src: url('/assets/Fonts/UntitledSerif-Regular.otf') format("truetype");
+}
+@font-face {
+  font-family: 'IodSerifRegIt';
+  src: url('/assets/Fonts/UntitledSerif-RegularItalic.otf') format("truetype");
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'IodSansLight';
+  color: $brand-grey-dark;
+}

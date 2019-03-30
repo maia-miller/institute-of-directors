@@ -1,0 +1,335 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:566766905
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSans-Black
+FamilyName:Untitled Sans
+StyleName:Black
+MenuName:Untitled Sans Black
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Untitled Sans Black
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSans-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:238428
+FileModTime:514360906
+NameArray:0,Mac,4,Untitled Sans Black
+NameArray:0,Win,1,Untitled Sans Black
+NameArray:0,Win,16,Untitled Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSans-Bold
+FamilyName:Untitled Sans
+StyleName:Bold
+MenuName:Untitled Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Untitled Sans Bold
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSans-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:235324
+FileModTime:514360906
+NameArray:0,Mac,4,Untitled Sans Bold
+NameArray:0,Win,1,Untitled Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSans-Light
+FamilyName:Untitled Sans
+StyleName:Light
+MenuName:Untitled Sans Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Untitled Sans Light
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSans-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:215088
+FileModTime:514360906
+NameArray:0,Mac,4,Untitled Sans Light
+NameArray:0,Win,1,Untitled Sans Light
+NameArray:0,Win,16,Untitled Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSans-LightItalic
+FamilyName:Untitled Sans
+StyleName:Light Italic
+MenuName:Untitled Sans Light
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Untitled Sans Light Italic
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSans-LightItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:213468
+FileModTime:514360906
+NameArray:0,Mac,4,Untitled Sans Light Italic
+NameArray:0,Win,1,Untitled Sans Light
+NameArray:0,Win,16,Untitled Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSans-Medium
+FamilyName:Untitled Sans
+StyleName:Medium
+MenuName:Untitled Sans Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Untitled Sans Medium
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSans-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:233104
+FileModTime:514360906
+NameArray:0,Mac,4,Untitled Sans Medium
+NameArray:0,Win,1,Untitled Sans Medium
+NameArray:0,Win,16,Untitled Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSans-Regular
+FamilyName:Untitled Sans
+StyleName:Regular
+MenuName:Untitled Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Untitled Sans
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSans-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:231292
+FileModTime:514360906
+NameArray:0,Mac,4,Untitled Sans
+NameArray:0,Win,1,Untitled Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSans-RegularItalic
+FamilyName:Untitled Sans
+StyleName:Regular Italic
+MenuName:Untitled Sans
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Untitled Sans Italic
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSans-RegularItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:249612
+FileModTime:514360906
+NameArray:0,Mac,4,Untitled Sans Italic
+NameArray:0,Win,1,Untitled Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSerif-Bold
+FamilyName:Untitled Serif
+StyleName:Bold
+MenuName:Untitled Serif
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Untitled Serif Bold
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSerif-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:347412
+FileModTime:570061156
+NameArray:0,Mac,4,Untitled Serif Bold
+NameArray:0,Win,1,Untitled Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSerif-Medium
+FamilyName:Untitled Serif
+StyleName:Medium
+MenuName:Untitled Serif Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Untitled Serif Medium
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSerif-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:396272
+FileModTime:570061156
+NameArray:0,Mac,4,Untitled Serif Medium
+NameArray:0,Win,1,Untitled Serif Medium
+NameArray:0,Win,16,Untitled Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSerif-MediumItalic
+FamilyName:Untitled Serif
+StyleName:Medium Italic
+MenuName:Untitled Serif Medium
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Untitled Serif Medium Italic
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSerif-MediumItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:439560
+FileModTime:570061156
+NameArray:0,Mac,4,Untitled Serif Medium Italic
+NameArray:0,Win,1,Untitled Serif Medium
+NameArray:0,Win,16,Untitled Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSerif-Regular
+FamilyName:Untitled Serif
+StyleName:Regular
+MenuName:Untitled Serif
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Untitled Serif
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSerif-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:361100
+FileModTime:570061156
+NameArray:0,Mac,4,Untitled Serif
+NameArray:0,Win,1,Untitled Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UntitledSerif-RegularItalic
+FamilyName:Untitled Serif
+StyleName:Regular Italic
+MenuName:Untitled Serif
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Untitled Serif Italic
+WritingScript:Roman
+OutlineFileName:/Volumes/Design Data/Clients/IOD/3962_IOD_Annual Report 2018/Website/3962_IOD_Annual Report 2018_web_mock-up_v2/Document fonts/UntitledSerif-RegularItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:396752
+FileModTime:570061156
+NameArray:0,Mac,4,Untitled Serif Italic
+NameArray:0,Win,1,Untitled Serif
+%EndFont
+
