@@ -1,0 +1,16 @@
+@import '/../../../styles';
+
+div {
+  display: flex;
+  position: absolute;
+  background-color: $brand-blue;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+}
+
+img {
+  padding: 20px;
+  max-height: 75px;
+}
