@@ -1,12 +1,23 @@
-<div class="set hxw, img is background">
-  <h1><span class="visually-hidden, color dependent on background/url">Member spotlight of</span>{{ name }}</h1>
+<div class="row spotlight-hero">
+  <img class="spotlight-image col-12" src='http://www.placepuppy.net/400/250' alt='{{ fullname }}' />
+  <h1 class="spotlight-name">
+    <span class="visually-hidden color dependent on background/url">Member spotlight of</span>
+    {{ firstname }}
+    {{ middlename }}<br />
+    <span role="presentation" class="underline">{{ lastname }}</span></h1>
 </div>
-<div class="quote-box">
-  <div class="quote-text">
-    <p>Quote</p>
-    <p>Author</p>
+<div class="row spotlight-details">
+  <div class="spotlight-quote-box d-inline-block col-6">
+    <div class="spotlight-quote-text">
+      <p class="block-subtitle">{{ quote }}</p>
+      <p class="nav-title black">{{ fullname }}</p>
+    </div>
   </div>
-</div>
-<div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class="d-inline-block col-6">
+    <p>{{ paraone }}</p>
+    <p>{{ paratwo }}</p>
+    <p>{{ parathree }}</p>
+    <p>{{ parafour }}</p>
+    <p>{{ parafive }}</p>
+  </div>
 </div>

@@ -3,6 +3,9 @@
 /* Imports */
 // @import '/styles/bootstrap-variable';
 
+//bootstrap variables
+$spacer: 1rem;
+
 /* Color system */
 $brand-blue: #074F8A;
 $brand-blue-dark: #000322;
@@ -48,11 +51,49 @@ $brand-grey-dark: #717171;
 
 .body-title {
   font-family: 'IodSansMed', sans-serif;
-  &.underline {
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color: $brand-blue;
-  }
+}
+
+.underline {
+  border-bottom: 1px solid $brand-blue;
+}
+
+/* Spotlight */
+.spotlight-hero {
+  max-width: 100%;
+  max-height: 400px;
+}
+.spotlight-image {
+  position: relative;
+  padding: 0;
+  object-fit: cover;
+}
+
+.spotlight-name {
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  max-width: 20%;
+}
+
+.spotlight-details {
+  padding-top: $spacer;
+}
+
+.spotlight-quote-box {
+  background-image: url('http://www.placepuppy.net/400/250');
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: auto;
+}
+
+.spotlight-quote-text:before,
+.spotlight-quote-text:after {
+  content:'';
+  display: inline-block;
+  width: 40px;
+  height: 5px;
+  border-top: 1px solid black;
+  vertical-align: middle;
 }
 
 /* Graph fonts */
@@ -131,4 +172,12 @@ body {
   margin: 0;
   font-family: 'IodSansLight';
   color: $brand-grey-dark;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.row {
+  margin: 0;
 }

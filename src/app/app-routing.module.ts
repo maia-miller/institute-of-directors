@@ -16,6 +16,13 @@ import { RaisingStandardsComponent } from './pages/our-year/raising-standards/ra
 import { SnapshotOfOurYearComponent } from './pages/our-year/snapshot-of-our-year/snapshot-of-our-year.component';
 import { ThoughtLeadershipComponent } from './pages/our-year/thought-leadership/thought-leadership.component';
 import { SpotlightTemplateComponent } from './components/spotlight-template/spotlight-template.component';
+import { BreccanMcleodLundyComponent } from './pages/spotlight/breccan-mcleod-lundy/breccan-mcleod-lundy.component';
+import { LaurissaCooneyComponent } from './pages/spotlight/laurissa-cooney/laurissa-cooney.component';
+import { MenaAntonioComponent } from './pages/spotlight/mena-antonio/mena-antonio.component';
+import { MicheleFreyComponent } from './pages/spotlight/michele-frey/michele-frey.component';
+import { SimonBerryComponent } from './pages/spotlight/simon-berry/simon-berry.component';
+import { WarwickTauwhareGeorgeComponent } from './pages/spotlight/warwick-tauwhare-george/warwick-tauwhare-george.component';
+
 
 const routes: Routes = [
   { path: 'homepage', component: HomepageComponent },
@@ -32,12 +39,12 @@ const routes: Routes = [
   { path: 'raising-standards', component: RaisingStandardsComponent },
   { path: 'snapshot-of-our-year', component: SnapshotOfOurYearComponent },
   { path: 'thought-leadership', component: ThoughtLeadershipComponent },
-  { path: 'spotlight/breccan-mcleod-lundy', component: SpotlightTemplateComponent },
-  { path: 'spotlight/laurissa-cooney', component: SpotlightTemplateComponent },
-  { path: 'spotlight/mena-antonio', component: SpotlightTemplateComponent },
-  { path: 'spotlight/michele-frey', component: SpotlightTemplateComponent },
-  { path: 'spotlight/simon-berry', component: SpotlightTemplateComponent },
-  { path: 'spotlight/warwick-tauwhare-george', component: SpotlightTemplateComponent },
+  { path: 'spotlight/breccan-mcleod-lundy', component: BreccanMcleodLundyComponent },
+  { path: 'spotlight/laurissa-cooney', component: LaurissaCooneyComponent },
+  { path: 'spotlight/mena-antonio', component: MenaAntonioComponent },
+  { path: 'spotlight/michele-frey', component: MicheleFreyComponent },
+  { path: 'spotlight/simon-berry', component: SimonBerryComponent },
+  { path: 'spotlight/warwick-tauwhare-george', component: WarwickTauwhareGeorgeComponent },
   { path: '', redirectTo: '/homepage', pathMatch: 'full' },
   { path: '**', redirectTo: '/homepage' }
 ];
