@@ -6,6 +6,65 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-council.component.scss']
 })
 export class OurCouncilComponent implements OnInit {
+  titledCouncillors = [
+    { fullname: 'maia miller',
+      role: 'president',
+      credentials: 'the best',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'maia miller',
+      role: 'president',
+      credentials: 'the best',
+      img: 'http://www.placepuppy.net/400/250'
+    }
+  ]
+  councillors = [
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    },
+    { fullname: 'fullname',
+      role: '',
+      credentials: 'credentials',
+      img: 'http://www.placepuppy.net/400/250'
+    }
+  ]
 
   constructor() { }
 

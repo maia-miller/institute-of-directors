@@ -1,0 +1,22 @@
+h3 {
+  &::after {
+    content:'';
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid white;
+    vertical-align: top;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
