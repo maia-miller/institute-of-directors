@@ -1,0 +1,50 @@
+@import '/../../../../styles';
+
+p {
+  margin-bottom: 0;
+}
+
+.stat-block {
+  background-color: $brand-blue;
+  border: 1px solid black;
+  text-align: center;
+
+  .header-stat {
+    align-items: center;
+
+    .header-number {
+      display: inline-block;
+
+      &::after {
+        content: '';
+        width: 1px;
+        height: 80%;
+        display: inline-block;
+        background-color: white;
+      }
+    }
+  }
+
+  .top-half {
+    display: inline-block;
+
+    &::after {
+      content: '';
+      width: 100%;
+      height: 1px;
+      display: block;
+      background-color: white;
+      margin: 5px 0 10px 0;
+    }
+  }
+}
+
+.number {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+}
