@@ -5,10 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
-import { TwoBlocksComponent } from './components/two-blocks/two-blocks.component';
 import { OurCouncilComponent } from './pages/who-we-are/our-council/our-council.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { CouncilPhotoComponent } from './components/council-photo/council-photo.component';
 import { FromThePresidentComponent } from './pages/from-the-president/from-the-president.component';
 import { OurMembersComponent } from './pages/who-we-are/our-members/our-members.component';
 import { OurBranchNetworkComponent } from './pages/who-we-are/our-branch-network/our-branch-network.component';
@@ -21,23 +19,21 @@ import { InspireAndEquipComponent } from './pages/our-year/inspire-and-equip/ins
 import { BuildEngagementComponent } from './pages/our-year/build-engagement/build-engagement.component';
 import { GovernanceFocusComponent } from './pages/our-year/governance-focus/governance-focus.component';
 import { CoreEnablersComponent } from './pages/our-year/core-enablers/core-enablers.component';
-import { SpotlightTemplateComponent } from './components/spotlight-template/spotlight-template.component';
-import { SimonBerryComponent } from './pages/spotlight/simon-berry/simon-berry.component';
-import { WarwickTauwhareGeorgeComponent } from './pages/spotlight/warwick-tauwhare-george/warwick-tauwhare-george.component';
-import { LaurissaCooneyComponent } from './pages/spotlight/laurissa-cooney/laurissa-cooney.component';
-import { MicheleFreyComponent } from './pages/spotlight/michele-frey/michele-frey.component';
-import { BreccanMcleodLundyComponent } from './pages/spotlight/breccan-mcleod-lundy/breccan-mcleod-lundy.component';
-import { MenaAntonioComponent } from './pages/spotlight/mena-antonio/mena-antonio.component';
+import { FacesOfGovernanceTemplateComponent } from './components/faces-of-governance-template/faces-of-governance-template.component';
+import { SimonBerryComponent } from './pages/faces-of-governance/simon-berry/simon-berry.component';
+import { WarwickTauwhareGeorgeComponent } from './pages/faces-of-governance/warwick-tauwhare-george/warwick-tauwhare-george.component';
+import { LaurissaCooneyComponent } from './pages/faces-of-governance/laurissa-cooney/laurissa-cooney.component';
+import { MicheleFreyComponent } from './pages/faces-of-governance/michele-frey/michele-frey.component';
+import { BreccanMcleodLundyComponent } from './pages/faces-of-governance/breccan-mcleod-lundy/breccan-mcleod-lundy.component';
+import { MenaAntonioComponent } from './pages/faces-of-governance/mena-antonio/mena-antonio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomepageComponent,
-    TwoBlocksComponent,
     OurCouncilComponent,
     FooterComponent,
-    CouncilPhotoComponent,
     FromThePresidentComponent,
     OurMembersComponent,
     OurBranchNetworkComponent,
@@ -50,7 +46,7 @@ import { MenaAntonioComponent } from './pages/spotlight/mena-antonio/mena-antoni
     BuildEngagementComponent,
     GovernanceFocusComponent,
     CoreEnablersComponent,
-    SpotlightTemplateComponent,
+    FacesOfGovernanceTemplateComponent,
     SimonBerryComponent,
     WarwickTauwhareGeorgeComponent,
     LaurissaCooneyComponent,

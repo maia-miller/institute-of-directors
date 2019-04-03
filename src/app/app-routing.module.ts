@@ -15,13 +15,13 @@ import { InspireAndEquipComponent } from './pages/our-year/inspire-and-equip/ins
 import { RaisingStandardsComponent } from './pages/our-year/raising-standards/raising-standards.component';
 import { SnapshotOfOurYearComponent } from './pages/our-year/snapshot-of-our-year/snapshot-of-our-year.component';
 import { ThoughtLeadershipComponent } from './pages/our-year/thought-leadership/thought-leadership.component';
-import { SpotlightTemplateComponent } from './components/spotlight-template/spotlight-template.component';
-import { BreccanMcleodLundyComponent } from './pages/spotlight/breccan-mcleod-lundy/breccan-mcleod-lundy.component';
-import { LaurissaCooneyComponent } from './pages/spotlight/laurissa-cooney/laurissa-cooney.component';
-import { MenaAntonioComponent } from './pages/spotlight/mena-antonio/mena-antonio.component';
-import { MicheleFreyComponent } from './pages/spotlight/michele-frey/michele-frey.component';
-import { SimonBerryComponent } from './pages/spotlight/simon-berry/simon-berry.component';
-import { WarwickTauwhareGeorgeComponent } from './pages/spotlight/warwick-tauwhare-george/warwick-tauwhare-george.component';
+import { FacesOfGovernanceTemplateComponent } from './components/faces-of-governance-template/faces-of-governance-template.component';
+import { BreccanMcleodLundyComponent } from './pages/faces-of-governance/breccan-mcleod-lundy/breccan-mcleod-lundy.component';
+import { LaurissaCooneyComponent } from './pages/faces-of-governance/laurissa-cooney/laurissa-cooney.component';
+import { MenaAntonioComponent } from './pages/faces-of-governance/mena-antonio/mena-antonio.component';
+import { MicheleFreyComponent } from './pages/faces-of-governance/michele-frey/michele-frey.component';
+import { SimonBerryComponent } from './pages/faces-of-governance/simon-berry/simon-berry.component';
+import { WarwickTauwhareGeorgeComponent } from './pages/faces-of-governance/warwick-tauwhare-george/warwick-tauwhare-george.component';
 
 
 const routes: Routes = [
@@ -39,12 +39,12 @@ const routes: Routes = [
   { path: 'raising-standards', component: RaisingStandardsComponent },
   { path: 'snapshot-of-our-year', component: SnapshotOfOurYearComponent },
   { path: 'thought-leadership', component: ThoughtLeadershipComponent },
-  { path: 'spotlight/breccan-mcleod-lundy', component: BreccanMcleodLundyComponent },
-  { path: 'spotlight/laurissa-cooney', component: LaurissaCooneyComponent },
-  { path: 'spotlight/mena-antonio', component: MenaAntonioComponent },
-  { path: 'spotlight/michele-frey', component: MicheleFreyComponent },
-  { path: 'spotlight/simon-berry', component: SimonBerryComponent },
-  { path: 'spotlight/warwick-tauwhare-george', component: WarwickTauwhareGeorgeComponent },
+  { path: 'faces-of-governance/breccan-mcleod-lundy', component: BreccanMcleodLundyComponent },
+  { path: 'faces-of-governance/laurissa-cooney', component: LaurissaCooneyComponent },
+  { path: 'faces-of-governance/mena-antonio', component: MenaAntonioComponent },
+  { path: 'faces-of-governance/michele-frey', component: MicheleFreyComponent },
+  { path: 'faces-of-governance/simon-berry', component: SimonBerryComponent },
+  { path: 'faces-of-governance/warwick-tauwhare-george', component: WarwickTauwhareGeorgeComponent },
   { path: '', redirectTo: '/homepage', pathMatch: 'full' },
   { path: '**', redirectTo: '/homepage' }
 ];

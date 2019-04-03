@@ -1,11 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-spotlight-template',
-  templateUrl: './spotlight-template.component.html',
-  styleUrls: ['./spotlight-template.component.scss']
+  selector: 'app-faces-of-governance-template',
+  templateUrl: './faces-of-governance-template.component.html',
+  styleUrls: ['./faces-of-governance-template.component.scss']
 })
-export class SpotlightTemplateComponent implements OnInit {
+export class FacesOfGovernanceTemplateComponent implements OnInit {
   @Input() fullname: string;
   @Input() firstname: string;
   @Input() middlename: string;
@@ -21,8 +21,6 @@ export class SpotlightTemplateComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('This is the value for firstname: ' + this.firstname);
-
   }
 
 }

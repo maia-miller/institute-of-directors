@@ -25,6 +25,11 @@ $brand-grey-dark: #717171;
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Typography */
 .title {
   font-family: 'IodSerifMed', serif;
@@ -53,41 +58,47 @@ $brand-grey-dark: #717171;
   font-family: 'IodSansMed', sans-serif;
 }
 
-.underline {
+.long-underline {
   border-bottom: 1px solid $brand-blue;
 }
 
-/* Spotlight */
-.spotlight-hero {
+.underline {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: $brand-blue;
+}
+
+/* faces-of-governance */
+.faces-of-governance-hero {
   max-width: 100%;
   max-height: 400px;
 }
-.spotlight-image {
+.faces-of-governance-image {
   position: relative;
   padding: 0;
   object-fit: cover;
 }
 
-.spotlight-name {
+.faces-of-governance-name {
   position: absolute;
   top: 120px;
   left: 150px;
   max-width: 20%;
 }
 
-.spotlight-details {
+.faces-of-governance-details {
   padding-top: $spacer;
 }
 
-.spotlight-quote-box {
+.faces-of-governance-quote-box {
   background-image: url('http://www.placepuppy.net/400/250');
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   height: auto;
 }
 
-.spotlight-quote-text:before,
-.spotlight-quote-text:after {
+.faces-of-governance-quote-text:before,
+.faces-of-governance-quote-text:after {
   content:'';
   display: inline-block;
   width: 40px;
