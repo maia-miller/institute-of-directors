@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+}
+
+li:not(:last-child) {
+  &::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid black;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+}
