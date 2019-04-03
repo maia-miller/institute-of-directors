@@ -1,31 +1,34 @@
-.option {
-  display: none;
-}
-
-.dropdown {
-  // max-width: 200px;
-}
-
-.dropdown:hover {
-    color: white;
-}
-
-.dropdown:hover .option {
-  display: block;
-}
+@import '../../../styles';
 
 ul {
   list-style-type: none;
-  width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-left: auto;
 
   &.option {
     padding-left: 0;
   }
 }
 
+.dropdown {
+  float: right;
+  min-width: 130px;
+}
+
+.option {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  background-color: $brand-blue-dark;
+}
+
+.dropdown:hover .option {
+  display: block;
+}
+
 li {
   padding: 10px;
   text-align: center;
+  flex-basis: 0;
 }
