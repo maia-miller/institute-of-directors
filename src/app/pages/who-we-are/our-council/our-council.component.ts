@@ -8,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class OurCouncilComponent implements OnInit {
   titledCouncillors = [
     { fullname: 'maia miller',
-      role: 'president',
+      role: 'President',
       credentials: 'the best',
       img: 'http://www.placepuppy.net/400/250'
     },
     { fullname: 'maia miller',
-      role: 'president',
+      role: 'Vice President',
       credentials: 'the best',
       img: 'http://www.placepuppy.net/400/250'
     }

@@ -1,8 +1,19 @@
+@import '/../../../../styles.scss';
+
+.ticker-number {
+  font-size: $large;
+}
+
 .ticker-subtitle:before {
   content: '';
   display: inline-block;
-  background-image: url('http://www.placepuppy.net/1p/400/250');
+  background-image: url('/../../../assets/4_Our members/Our-members-blue-triangle.svg');
   width: 50px;
   height: 25px;
   margin-right: 10px;
+}
+
+img {
+  height: 150px;
+  margin-bottom: $spacer-lg;
 }

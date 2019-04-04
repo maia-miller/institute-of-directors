@@ -6,6 +6,11 @@
 //bootstrap variables
 $spacer: 1rem;
 
+/* Spacers */
+$spacer-sm: 1rem;
+$spacer-md: 1.75rem;
+$spacer-lg: 3rem;
+
 /* Color system */
 $brand-blue: #074F8A;
 $brand-blue-dark: #000322;
@@ -31,6 +36,17 @@ a {
 }
 
 /* Typography */
+$small: .5rem;
+$medium: .75rem;
+$serif-medium: .9rem;
+$large: 1.75rem;
+$body: 0.65rem;
+
+h2 {
+  font-size: $large;
+  margin-bottom: $spacer-lg;
+}
+
 .title {
   font-family: 'IodSerifMed', serif;
 }
@@ -39,23 +55,41 @@ a {
   font-family: 'IodSerifMedIt', serif;
 }
 
-.block-subtitle {
-  font-family: 'IodSerif', serif;
-  color: $brand-blue;
-}
-
-.nav-title {
-  font-family: 'IodSansMed', sans-serif;
-  text-transform: uppercase;
-}
-
-.nav-subtitle {
+.subtitle {
   font-family: 'IodSans', sans-serif;
   text-transform: uppercase;
 }
 
+.block-subtitle {
+  font-family: 'IodSerif', serif;
+  color: $brand-blue;
+  font-size: $serif-medium;
+}
+
+.nav-title {
+  font-family: 'IodSansBold', sans-serif;
+  text-transform: uppercase;
+  font-size: $small;
+}
+
+.nav-subtitle {
+  font-family: 'IodSansLight';
+  font-size: $small;
+  color: white;
+  text-transform: none;
+  & li:hover {
+    color: $brand-blue;
+  }
+}
+
 .body-title {
-  font-family: 'IodSansMed', sans-serif;
+  font-family: 'IodSansBold', sans-serif;
+  font-size: $body;
+}
+
+.small-body-text {
+  font-family: 'IodSansLight', sans-serif;
+  font-size: $small;
 }
 
 .long-underline {
@@ -109,7 +143,8 @@ a {
 
 /* Graph fonts */
 .graph-title {
-  font-family: 'IodSerif', serif;
+  font-family: 'IodSerifMed', serif;
+  font-size: $large;
 }
 
 .graph-text {
@@ -178,11 +213,29 @@ a {
   src: url('/assets/Fonts/UntitledSerif-RegularItalic.otf') format("truetype");
 }
 
+/* Header blocks */
+.clipped-box {
+  background-image: url('/../../../assets/2_Our council/Our-council_greybox.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: $spacer-md;
+  > div {
+    margin: $spacer-md;
+    margin-top: $spacer-lg;
+  }
+}
+
 /* Global styles */
 body {
   margin: 0;
   font-family: 'IodSansLight';
+  font-size: $body;
   color: $brand-grey-dark;
+  line-height: 1.25;
+}
+
+p {
+  margin-bottom: 0.75rem;
 }
 
 .visually-hidden {
