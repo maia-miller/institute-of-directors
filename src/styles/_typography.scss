@@ -1,0 +1,127 @@
+@import 'custom-variables';
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: $font-size-x-large;
+  margin-bottom: $spacer-lg;
+}
+
+.title {
+  font-family: 'IodSerif', serif;
+}
+
+.title-it {
+  font-family: 'IodSerifMedIt', serif;
+}
+
+.subtitle {
+  font-family: 'IodSans', sans-serif;
+  text-transform: uppercase;
+}
+
+.block-subtitle {
+  font-family: 'IodSerif', serif;
+  color: $brand-blue;
+  font-size: $font-size-medium;
+
+  @media only screen and (min-width: 992px) {
+    font-size: $font-size-serif-medium;
+  }
+}
+
+.nav-title {
+  font-family: 'IodSansBold', sans-serif;
+  text-transform: uppercase;
+  font-size: $font-size-x-small;
+}
+
+.nav-subtitle {
+  font-family: 'IodSansLight';
+  font-size: $font-size-x-small;
+  color: white;
+  text-transform: none;
+  & li:hover {
+    color: $brand-blue;
+  }
+}
+
+.body-title {
+  font-family: 'IodSansBold', sans-serif;
+  font-size: $font-size-small;
+}
+
+.small-body-text {
+  font-family: 'IodSansLight', sans-serif;
+  font-size: $font-size-x-small;
+}
+
+.long-underline {
+  border-bottom: 1px solid $brand-blue;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: $brand-blue;
+}
+
+/* faces-of-governance */
+.faces-of-governance-hero {
+  max-width: 100%;
+  max-height: 400px;
+}
+.faces-of-governance-image {
+  position: relative;
+  padding: 0;
+  object-fit: cover;
+}
+
+.faces-of-governance-name {
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  max-width: 20%;
+}
+
+.faces-of-governance-details {
+  padding-top: $spacer-sm;
+}
+
+.faces-of-governance-quote-box {
+  background-image: url('http://www.placepuppy.net/400/250');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: auto;
+}
+
+.faces-of-governance-quote-text:before,
+.faces-of-governance-quote-text:after {
+  content:'';
+  display: inline-block;
+  width: 40px;
+  height: 5px;
+  border-top: 1px solid black;
+  vertical-align: middle;
+}
+
+/* Graph fonts */
+.graph-title {
+  font-family: 'IodSerifMed', serif;
+  font-size: $font-size-x-large;
+}
+
+.graph-text {
+  font-family: 'IodSans', sans-serif;
+}
+
+.graph-text-title {
+  font-family: 'IodSansMed', sans-serif;
+}
+
+.graph-number {
+  font-family: 'IodSansBold', sans-serif;
+}

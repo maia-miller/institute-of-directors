@@ -1,0 +1,16 @@
+@import 'custom-variables';
+
+.clipped-box {
+  background-image: url('/../../../assets/2_Our council/Our-council_greybox.svg');
+  background-repeat: no-repeat;
+  margin-bottom: $spacer-md;
+
+  @media only screen and (min-width: 992px) {
+    background-size: cover;
+  }
+
+  > div {
+    margin: $spacer-md;
+    margin-top: $spacer-lg;
+  }
+}

@@ -1,0 +1,27 @@
+/* Color system */
+$brand-blue: #084E8A;
+$brand-blue-dark: #000C14;
+$brand-blue-light: #707FAB;
+$brand-grey: #F3F6F7;
+$brand-grey-dark: #E0E1EB;
+$brand-grey-darker: #0C0C0C;
+
+/* Responsive settings */
+$mobile-and-below: only screen and (max-width: 600px); /* Extra small devices (phones) */
+$portrait-tablet-and-above: only screen and (min-width: 600px); /* Small devices (portrait tablets, large phones) */
+$landscape-tablet-and-above: only screen and (min-width: 768px); /* Medium devices (landscape tablets) */
+$desktop-and-above: only screen and (min-width: 992px); /* Large devices (laptops/desktops) */
+$extra-large-and-above: only screen and (min-width: 1200px); /* Extra large devices */
+
+/* Spacers */
+$spacer-sm: 1rem;
+$spacer-md: 1.75rem;
+$spacer-lg: 3rem;
+
+/* Typography */
+$font-size-x-small: .5rem;
+$font-size-small: 0.65rem;
+$font-size-medium: .75rem;
+$font-size-serif-medium: .9rem;
+$font-size-large: 1rem;
+$font-size-x-large: 1.75rem;

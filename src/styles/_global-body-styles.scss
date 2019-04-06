@@ -1,0 +1,49 @@
+@import 'custom-variables';
+
+body {
+  // $mobile-and-below
+  margin: 0;
+  font-family: 'IodSansLight';
+  color: $brand-grey-darker;
+  font-size: $font-size-small;
+  line-height: 1.25;
+
+  // $portrait-tablet-and-above
+  @media only screen and (min-width: 600px) {
+    font-size: $font-size-small;
+    line-height: 1.25;
+  }
+
+  // $desktop-and-above
+  @media only screen and (min-width: 992px) {
+    font-size: $font-size-large;
+    line-height: 1.5;
+  }
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+
+  // large devices
+  @media only screen and (min-width: 992px) {
+    width: 960px;
+  }
+
+  // extra-large devices
+  @media only screen and (min-width: 1200px) {
+    width: 1140px;
+  }
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.row {
+  margin: 0;
+}
