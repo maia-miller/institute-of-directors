@@ -27,11 +27,7 @@ h2 {
 .block-subtitle {
   font-family: 'IodSerif', serif;
   color: $brand-blue;
-  font-size: $font-size-medium;
-
-  @media only screen and (min-width: 992px) {
-    font-size: $font-size-serif-medium;
-  }
+  font-size: inherit;
 }
 
 .nav-title {
@@ -55,12 +51,19 @@ h2 {
 
 .body-title {
   font-family: 'IodSansBold', sans-serif;
-  font-size: $font-size-small;
+  font-size: inherit;
 }
 
 .small-body-text {
   font-family: 'IodSansLight', sans-serif;
   font-size: $font-size-x-small;
+}
+
+.caption {
+  font-family: 'IodSerifRegIt', serif;
+  font-size: $font-size-small;
+  margin: auto;
+  margin-bottom: $spacer-sm;
 }
 
 .long-underline {

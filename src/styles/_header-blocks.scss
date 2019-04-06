@@ -1,10 +1,10 @@
 @import 'custom-variables';
 
 .clipped-box {
-  background-image: url('/../../../assets/2_Our council/Our-council_greybox.svg');
   background-repeat: no-repeat;
-  margin-bottom: $spacer-md;
   background-size: cover;
+  min-height: 325px;
+  margin-bottom: $spacer-sm !important;
 
   h2 {
     margin-bottom: $spacer-sm;
@@ -17,17 +17,36 @@
     margin: $spacer-md;
     margin-top: $spacer-lg;
   }
+
+  > div.lone-text {
+    display: flex;
+    height: 100%;
+    margin-top: 0;
+    align-items: center;
+  }
 }
 
+.hero-box-image {
+  background-size: cover;
+  margin-bottom: $spacer-sm !important;
+}
 
-.grey-box {
+.grey-box-left {
   background-image: url('/../assets/2_Our council/Our-council_greybox.svg');
 }
 
-.blue-box {
+.grey-box-right {
+  background-image: url('/../assets/2_Our council/Our-council_greybox.svg');
+}
+
+.blue-box-right {
   background-image: url('/../assets/2_Our council/Our-council_bluebox.svg');
 }
 
-.white-box {
+.blue-box-left {
+  background-image: url('/../assets/2_Our council/Our-council_bluebox.svg');
+}
+
+.white-box-right {
   background-image: url('/../assets/2_Our council/Our-council_bluebox.svg');
 }

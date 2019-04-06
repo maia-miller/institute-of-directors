@@ -1,7 +1,22 @@
+@import '/../../../../styles.scss';
+
+.hero-box-image {
+  background-image: url('/../../../assets/10_Inspire and Equip/Inspire-hero.svg');
+}
+
 .mentee-list-box {
   float: right;
-  
+  width: 100%;
+  margin-left: $spacer-sm;
+  min-height: unset;
+
+  @media only screen and (min-width: 600px) {
+    width: 50%;
+  }
+
   ul {
-    columns: 2
+    list-style: none;
+    columns: 2;
+    padding-left: 0;
   }
 }
