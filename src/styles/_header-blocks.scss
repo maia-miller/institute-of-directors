@@ -4,13 +4,30 @@
   background-image: url('/../../../assets/2_Our council/Our-council_greybox.svg');
   background-repeat: no-repeat;
   margin-bottom: $spacer-md;
+  background-size: cover;
 
-  @media only screen and (min-width: 992px) {
-    background-size: cover;
+  h2 {
+    margin-bottom: $spacer-sm;
+    @media only screen and (min-width: 992px) {
+      margin-bottom: $spacer-lg;
+    }
   }
 
   > div {
     margin: $spacer-md;
     margin-top: $spacer-lg;
   }
+}
+
+
+.grey-box {
+  background-image: url('/../assets/2_Our council/Our-council_greybox.svg');
+}
+
+.blue-box {
+  background-image: url('/../assets/2_Our council/Our-council_bluebox.svg');
+}
+
+.white-box {
+  background-image: url('/../assets/2_Our council/Our-council_bluebox.svg');
 }

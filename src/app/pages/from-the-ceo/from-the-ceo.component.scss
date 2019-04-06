@@ -1,5 +1,10 @@
 @import '/../../../styles';
 
+h1,
+.row {
+  padding-bottom: $spacer-sm;
+}
+
 h1:before,
 h1:after {
   content:'';
@@ -17,4 +22,11 @@ h1:after {
 
 .body-text {
   background-color: white;
+  padding: $spacer-lg;
+}
+
+.signature {
+  max-height: 50px;
+  margin-top: $spacer-sm;
+  margin-bottom: $spacer-sm;
 }

@@ -21,6 +21,7 @@ h2 {
 .subtitle {
   font-family: 'IodSans', sans-serif;
   text-transform: uppercase;
+  font-size: $font-size-small;
 }
 
 .block-subtitle {
@@ -37,9 +38,6 @@ h2 {
   font-family: 'IodSansBold', sans-serif;
   text-transform: uppercase;
   font-size: $font-size-small;
-  @media only screen and (min-width: 768px) {
-    font-size: $font-size-x-small;
-  }
 }
 
 .nav-subtitle {
@@ -51,7 +49,6 @@ h2 {
     color: $brand-blue-light;
   }
   @media only screen and (min-width: 768px) {
-    font-size: $font-size-x-small;
     font-family: 'IodSansLight';
   }
 }
