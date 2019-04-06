@@ -1,7 +1,7 @@
-<app-navbar></app-navbar>
-
-<!-- set background based on url -->
-<div class="container">
-  <router-outlet></router-outlet>
+<div [ngClass]="getBackgroundClass()">
+  <app-navbar></app-navbar>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
 </div>
 <app-footer></app-footer>

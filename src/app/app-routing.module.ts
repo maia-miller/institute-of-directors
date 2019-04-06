@@ -25,7 +25,7 @@ import { WarwickTauwhareGeorgeComponent } from './pages/faces-of-governance/warw
 
 
 const routes: Routes = [
-  { path: 'homepage', component: HomepageComponent },
+  { path: 'home', component: HomepageComponent },
   { path: 'committees', component: CommitteesComponent },
   { path: 'our-branch-network', component: OurBranchNetworkComponent },
   { path: 'our-council', component: OurCouncilComponent },
@@ -45,8 +45,8 @@ const routes: Routes = [
   { path: 'faces-of-governance/michele-frey', component: MicheleFreyComponent },
   { path: 'faces-of-governance/simon-berry', component: SimonBerryComponent },
   { path: 'faces-of-governance/warwick-tauwhare-george', component: WarwickTauwhareGeorgeComponent },
-  { path: '', redirectTo: '/homepage', pathMatch: 'full' },
-  { path: '**', redirectTo: '/homepage' }
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/home' }
 ];
 
 @NgModule({

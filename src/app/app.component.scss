@@ -2,6 +2,45 @@
 
 :host {
     display: block;
-    background-color: lightblue;
     height: 100%;
+}
+
+.greyBackground {
+  background-color: $brand-grey;
+}
+
+.backgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homeBackgroundImage {
+  background-color: $brand-blue;
+  background-image: url('/../assets/1_homepage/Background image.svg');
+}
+
+.committeesBackgroundImage {
+  // background-image: url('/../assets/1_homepage/Background image.svg');
+}
+
+.branchNetworkBackgroundImage {
+  background-color: $brand-blue;
+  background-image: url('/../assets/3_Our branch network/NZ_map.svg');
+  background-size: 46%;
+}
+
+.membersBackgroundImage {
+  // background-color: $brand-grey;
+  background: url('/../assets/4_Our members/Our-members-background-image.svg');
+}
+
+.snapshotBackgroundImage {
+  background-image: url('/../assets/7_snapshot/snapshot-background.svg');
+}
+
+.raisingStandardsBackgroundImage {
+  background-image: url('/../assets/9_raising standards/Raising-background.svg');
+  background-size: unset;
+  background-position: bottom;
 }
