@@ -20,7 +20,7 @@
   <div class="clipped-box blue-box-right col-6 p-0 d-inline-block">
     <div class="text-center white">
       <h3 class="block-subtitle white mb-0">2018 Leadership Team</h3>
-      <ul>
+      <ul class="unbulleted">
         <li>
           <p class="graph-text-title m-0">Full Name</p>
           <p class="small-body-text mb-2">Position this text can be very long</p>
@@ -61,7 +61,7 @@
 </div>
 
 <h2 class="title black">2018 Council</h2>
-<ul class="d-flex flex-wrap">
+<ul class="d-flex flex-wrap unbulleted">
   <li *ngFor="let councillor of titledCouncillors" class="col-4">
     <img src='{{ councillor.img }}' alt='{{ councillor.fullname }}' class="d-inline-block" />
     <div class="d-inline-block">
@@ -71,7 +71,7 @@
     </div>
   </li>
 </ul>
-<ul class="d-flex flex-wrap">
+<ul class="d-flex flex-wrap unbulleted">
   <li *ngFor="let councillor of councillors" class="col-4">
     <img src='{{ councillor.img }}' alt='{{ councillor.fullname }}' class="d-inline-block" />
     <div class="d-inline-block">
