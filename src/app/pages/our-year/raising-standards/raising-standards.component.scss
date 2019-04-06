@@ -1,7 +1,95 @@
+@import '/../../../../styles.scss';
+
+.hero-box-image {
+  background-image: url('/../../../assets/9_raising standards/Raising-standards-hero.svg');
+}
+
+img {
+  margin-bottom: $spacer-sm;
+}
+
+.charterd-membership-list {
+  padding-left: $spacer-sm;
+  columns: 2;
+
+  @media only screen and (min-width: 768px) {
+    columns: 1;
+  }
+}
+
+
+.three-column {
+  margin-bottom: $spacer-lg;
+
+  .grey-column-block {
+    background-color: $brand-grey;
+    flex: 1;
+    padding: $spacer-md;
+
+    @media only screen and (max-width: 600px) {
+      flex: unset;
+      width: 100%
+    }
+
+    &:nth-child(2) {
+      margin: 0 $spacer-sm;
+
+      @media only screen and (max-width: 600px) {
+        margin: $spacer-sm 0;
+      }
+    }
+  }
+}
+
 .chartered-fellows-list {
   columns: 2;
 }
 
-.boardwide-members-list {
-  columns: 3;
+.para-membership {
+  padding: 0;
+  @media only screen and (min-width: 768px) {
+    padding-right: $spacer-sm;
+  }
+}
+
+.para-maori {
+  padding: 0;
+  @media only screen and (min-width: 768px) {
+    padding-left: $spacer-sm;
+  }
+}
+
+
+.members-list-container {
+  background-image: url('/../../../assets/9_raising standards/Members-blu-box.svg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding-top: $spacer-x-lg !important;
+  margin-bottom: $spacer-sm;
+
+  @media only screen and (min-width: 768px) {
+    background-size: cover;
+  }
+
+  .members-list-textbox {
+    padding: $spacer-md !important;
+    padding-top: 0 !important;
+    background-color: $brand-blue;
+
+    @media only screen and (min-width: 768px) {
+      background-color: transparent;
+    }
+  }
+
+  .boardwide-members-list {
+    columns: 1;
+
+    @media only screen and (min-width: 600px) {
+      columns: 2;
+    }
+
+    @media only screen and (min-width: 768px) {
+      columns: 3;
+    }
+  }
 }
