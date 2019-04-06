@@ -1,34 +1,60 @@
 @import '../../../styles';
 
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
+/* Display Options */
+nav {
+  //show hamburger menu with blue translucent background
+  color: white;
+  background-color: rgba(0, 12, 20, 0.9);
+  padding-top: $spacer-sm;
+  padding-bottom: $spacer-sm;
 
-  &.option {
-    padding-left: 0;
+  // and hide full menu
+  &.navbar {
+    dislpay: none;
+    background-color: transparent;
+  }
+
+  //large device = hide hamburger, show full menu
+  @media only screen and (min-width: 768px) {
+    &.hamburger-menu {
+      display: none;
+    }
+    &.navbar {
+      display: block;
+      color: $brand-blue;
+      background-color: transparent;
+    }
   }
 }
 
-.dropdown {
-  float: right;
-  min-width: 130px;
+/* Color Options */
+.homepageNavBar {
+  background-color: transparent;
+
+  &.navbar {
+    color: white;
+  }
 }
 
-.option {
-  display: none;
-  position: absolute;
-  z-index: 3;
-  background-color: $brand-blue-dark;
+.bluePageNavBar {
+  //large device
+  @media only screen and (min-width: 768px) {
+    &.navbar {
+      background-color: $brand-blue;
+      color: white;
+    }
+  }
 }
 
-.dropdown:hover .option {
-  display: block;
+i {
+  padding-left: $spacer-md;
+  color: white;
 }
 
-li {
-  padding: 10px;
-  text-align: center;
-  flex-basis: 0;
+button {
+  color: white;
+  border: none;
+  background-color: transparent;
+  font-size: $font-size-large;
+  font-family: 'IodSansBold';
 }

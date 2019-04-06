@@ -36,16 +36,23 @@ h2 {
 .nav-title {
   font-family: 'IodSansBold', sans-serif;
   text-transform: uppercase;
-  font-size: $font-size-x-small;
+  font-size: $font-size-small;
+  @media only screen and (min-width: 768px) {
+    font-size: $font-size-x-small;
+  }
 }
 
 .nav-subtitle {
-  font-family: 'IodSansLight';
-  font-size: $font-size-x-small;
+  font-family: 'IodSansBold';
+  font-size: $font-size-small;
   color: white;
   text-transform: none;
   & li:hover {
-    color: $brand-blue;
+    color: $brand-blue-light;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: $font-size-x-small;
+    font-family: 'IodSansLight';
   }
 }
 

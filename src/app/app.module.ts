@@ -26,6 +26,7 @@ import { LaurissaCooneyComponent } from './pages/faces-of-governance/laurissa-co
 import { MicheleFreyComponent } from './pages/faces-of-governance/michele-frey/michele-frey.component';
 import { BreccanMcleodLundyComponent } from './pages/faces-of-governance/breccan-mcleod-lundy/breccan-mcleod-lundy.component';
 import { MenaAntonioComponent } from './pages/faces-of-governance/mena-antonio/mena-antonio.component';
+import { NavigationLinksComponent } from './components/navbar/navigation-links/navigation-links.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { MenaAntonioComponent } from './pages/faces-of-governance/mena-antonio/m
     LaurissaCooneyComponent,
     MicheleFreyComponent,
     BreccanMcleodLundyComponent,
-    MenaAntonioComponent
+    MenaAntonioComponent,
+    NavigationLinksComponent
   ],
   imports: [
     BrowserModule,

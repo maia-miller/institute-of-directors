@@ -1,0 +1,69 @@
+@import '../../../../styles';
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+
+  &.option {
+    padding-left: 0;
+  }
+}
+
+.dropdown {
+  float: right;
+  min-width: 130px;
+}
+
+.option {
+  display: none;
+  z-index: 3;
+  @media only screen and (min-width: 768px) {
+    position: absolute;
+    background-color: $brand-blue-dark;
+  }
+}
+
+.dropdown:hover .option {
+  display: block;
+}
+
+li {
+  padding: 10px;
+  padding-left: 0px;
+  flex-basis: 0;
+  @media only screen and (min-width: 768px) {
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  span {
+    padding-left: $spacer-md;
+    @media only screen and (min-width: 768px) {
+      padding-left: 0;
+    }
+  }
+
+  li {
+    padding-left: $spacer-lg;
+    @media only screen and (min-width: 768px) {
+      padding-left: 10px;
+    }
+  }
+}
+
+.down-arrow::after {
+  content:'';
+  display: inline-block;
+  background-image: url('/../../../assets/1_homepage/homepage-triangle.svg');
+  width: 9px;
+  height: 9px;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  transform: rotate(180deg);
+
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
