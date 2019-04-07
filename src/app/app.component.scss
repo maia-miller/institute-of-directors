@@ -10,6 +10,10 @@
   background-color: $brand-grey;
 }
 
+.blueBackground {
+  background-color: $brand-blue;
+}
+
 .backgroundImage {
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,12 +27,6 @@
 
 .committeesBackgroundImage {
   // background-image: url('/../assets/1_homepage/Background image.svg');
-}
-
-.branchNetworkBackgroundImage {
-  background-color: $brand-blue;
-  background-image: url('/../assets/3_Our branch network/NZ_map.svg');
-  background-size: 46%;
 }
 
 .membersBackgroundImage {

@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OurCouncilComponent implements OnInit {
   titledCouncillors = [
-    { fullname: 'maia miller',
+    { fullname: 'Liz Coutts',
       role: 'President',
-      credentials: 'the best',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'ONZM, CFInstD',
+      img: '/../../../assets/2_Our council/Liz-Coutts.svg'
     },
     { fullname: 'maia miller',
       role: 'Vice President',
       credentials: 'the best',
-      img: 'http://www.placepuppy.net/400/250'
+      img: '/../../../assets/2_Our council/Alan-Isaac.svg'
     }
   ]
   councillors = [

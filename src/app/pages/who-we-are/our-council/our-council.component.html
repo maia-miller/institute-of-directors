@@ -1,7 +1,7 @@
 <h1 class="nav-title blue">Who We Are</h1>
 <h2 class="title black">Our Council</h2>
 <div class="row">
-  <div class="clipped-box grey-box-left col-6 p-0 d-inline-block">
+  <div class="clipped-box grey-box-left col-md-6 p-0 d-inline-block">
     <div>
       <p class="block-subtitle blue">The IoD Council is responsible for overall corporate governance
         and consists of 11 non-executive members. Each year branch committees elect members to represent
@@ -17,7 +17,7 @@
         remunerated.</p>
     </div>
   </div>
-  <div class="clipped-box blue-box-right col-6 p-0 d-inline-block">
+  <div class="clipped-box blue-box-right col-md-6 p-0 d-inline-block">
     <div class="text-center white">
       <h3 class="block-subtitle white mb-0">2018 Leadership Team</h3>
       <ul class="unbulleted">
@@ -62,7 +62,7 @@
 
 <h2 class="title black">2018 Council</h2>
 <ul class="d-flex flex-wrap unbulleted">
-  <li *ngFor="let councillor of titledCouncillors" class="col-4">
+  <li *ngFor="let councillor of titledCouncillors" class="col-md-4">
     <img src='{{ councillor.img }}' alt='{{ councillor.fullname }}' class="d-inline-block" />
     <div class="d-inline-block">
       <p class="title blue m-0">{{ councillor.role }}</p>
@@ -72,7 +72,7 @@
   </li>
 </ul>
 <ul class="d-flex flex-wrap unbulleted">
-  <li *ngFor="let councillor of councillors" class="col-4">
+  <li *ngFor="let councillor of councillors" class="col-md-4">
     <img src='{{ councillor.img }}' alt='{{ councillor.fullname }}' class="d-inline-block" />
     <div class="d-inline-block">
       <p class="body-title m-0">{{ councillor.fullname }}</p>

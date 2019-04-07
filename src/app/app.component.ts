@@ -22,11 +22,11 @@ export class AppComponent {
       case '/committees':
         return backgroundImageClass = 'backgroundImage committeesBackgroundImage';
         break;
-      case '/our-branch-network':
-        return backgroundImageClass = 'backgroundImage branchNetworkBackgroundImage';
-        break;
       case '/our-members':
         return backgroundImageClass = 'backgroundImage membersBackgroundImage';
+        break;
+      case '/our-branch-network':
+        return backgroundImageClass = 'blueBackground';
         break;
       case '/from-the-president':
         return backgroundImageClass = 'greyBackground';

@@ -1,3 +1,5 @@
+// @import 'custom-variables';
+
 h1:before,
 h1:after {
   content:'';
@@ -7,4 +9,14 @@ h1:after {
   border-top: 1px solid white;
   vertical-align: middle;
   margin: 0 20px 0 20px;
+}
+
+.logo {
+  height: 40px;
+  margin: 5rem 0;
+}
+
+.triangle {
+  height: 20px;
+  margin: 5rem 0;
 }
