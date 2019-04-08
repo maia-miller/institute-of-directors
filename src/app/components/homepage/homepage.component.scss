@@ -1,4 +1,11 @@
-// @import 'custom-variables';
+@import '/../../../styles';
+
+.homepage-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 
 h1:before,
 h1:after {
@@ -11,12 +18,25 @@ h1:after {
   margin: 0 20px 0 20px;
 }
 
+h2 {
+  margin-bottom: 0;
+  font-size: $font-size-x-large;
+
+  span {
+    display: block;
+  }
+
+  .title-it {
+    font-size: $font-size-medium;
+  }
+}
+
 .logo {
   height: 40px;
-  margin: 5rem 0;
+  margin-bottom: $spacer-lg;
 }
 
 .triangle {
   height: 20px;
-  margin: 5rem 0;
+  margin-top: $spacer-sm;
 }

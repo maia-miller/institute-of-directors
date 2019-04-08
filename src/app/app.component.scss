@@ -18,11 +18,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100%;
 }
 
 .homeBackgroundImage {
   background-color: $brand-blue;
-  background-image: url('/../assets/1_homepage/Background image.svg');
+  background-image: url('/../assets/1_homepage/Background_image.png');
 }
 
 .committeesBackgroundImage {

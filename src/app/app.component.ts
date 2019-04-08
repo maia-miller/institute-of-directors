@@ -42,4 +42,9 @@ export class AppComponent {
         break;
     }
   }
+
+  getShowOrHideFooter() {
+    let url = window.location.pathname
+    return url === '/home' ? 'visually-hidden' : 'show'
+  }
 }
