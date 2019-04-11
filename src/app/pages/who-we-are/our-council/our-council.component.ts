@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-council.component.scss']
 })
 export class OurCouncilComponent implements OnInit {
+
+  // EDIT BELOW TO UPDATE INFORATION OF COUNCILLORS
   titledCouncillors = [
     { fullname: 'Liz Coutts',
       role: 'President',
