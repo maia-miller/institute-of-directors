@@ -6,7 +6,7 @@ a {
 }
 
 h2 {
-  font-size: $font-size-x-large;
+  font-size: $font-size-2x-large;
   margin-bottom: $spacer-lg;
 }
 
@@ -27,7 +27,16 @@ h2 {
 .block-subtitle {
   font-family: 'IodSerif', serif;
   color: $brand-blue;
-  font-size: inherit;
+  // $mobile-and-below
+  font-size: $font-size-medium;
+  // $portrait-tablet-and-above
+  @media only screen and (min-width: 600px) {
+    font-size: $font-size-medium;
+  }
+  // $desktop-and-above
+  @media only screen and (min-width: 992px) {
+    font-size: $font-size-x-large;
+  }
 }
 
 .nav-title {
@@ -79,7 +88,7 @@ h2 {
 /* Graph fonts */
 .graph-title {
   font-family: 'IodSerifMed', serif;
-  font-size: $font-size-x-large;
+  font-size: $font-size-2x-large;
 }
 
 .graph-text {
