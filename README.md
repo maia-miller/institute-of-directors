@@ -87,3 +87,16 @@ Rebasing takes what lives in origin/master and applies it onto your local code. 
 * <strong>Example #2:</strong> Sarah is working on file ```from-the-ceo.component.scss```. Maia pushed changes to the repo of that SAME file. Sarah rebases with ```git rebase origin/master```. Command line will tell Sarah that there are merge conflicts. Sarah goes to ```from-the-ceo.component.scss``` and selects the block of code that includes what she wants her final local version to have - that can be by simply clicking "Use Me", or by manually editing the code. *(Note: Conflicts usually happen when both of us changed, say, line 22 in the same file. If I changed line 22 but you're working on line 100 there shouldn't be a merge conflict).* Once Sarah is satisfied with the merging, she returns to command line, adds the file to the staging area, and then continues the rebase.
 
 Make sure to rebase before pushing or creating a pull request - it can save some grief of conflicts later on.
+
+
+
+# == Odometers ==
+To turn a numer into an odometer:
+1. In the HTML file, add 'odometer' as a class AND an id to the number. Example: ```<p class="title blue odometer" id="odometer">123</p>```
+2. In the .ts file of that same component, include the following code between the { squiggly braces } that starts with OnInit. It should look like this:
+```  ngOnInit() {
+      setTimeout(function(){
+          odometer.innerHTML = THENUMBER;
+      }, 1000);
+    }
+```
