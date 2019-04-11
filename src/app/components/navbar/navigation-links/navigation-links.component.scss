@@ -1,5 +1,9 @@
 @import '../../../../styles';
 
+:host {
+  margin-left: auto;
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -14,14 +18,26 @@ ul {
 .dropdown {
   float: right;
   min-width: 130px;
+
+  @media only screen and (min-width: 768px) {
+    padding-top: $spacer-md;
+
+    &:hover {
+      background-color: $brand-grey-dark;
+    }
+  }
 }
 
 .option {
   display: none;
   z-index: 3;
   @media only screen and (min-width: 768px) {
+    color: $brand-blue;
     position: absolute;
-    background-color: $brand-blue-dark;
+    margin-top: 4px;
+    width: 100%;
+    right: 0;
+    background-color: $brand-grey-dark;
   }
 }
 
@@ -66,4 +82,10 @@ li {
   @media only screen and (min-width: 768px) {
     display: none;
   }
+}
+
+.darkTab,
+.darkTab:hover {
+  color: white;
+  background-color: $brand-blue-dark;
 }

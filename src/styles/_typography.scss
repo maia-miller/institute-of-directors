@@ -33,12 +33,12 @@ h2 {
 .nav-title {
   font-family: 'IodSansBold', sans-serif;
   text-transform: uppercase;
-  font-size: $font-size-small;
+  font-size: $font-size-x-small;
 }
 
 .nav-subtitle {
   font-family: 'IodSansBold';
-  font-size: $font-size-small;
+  font-size: $font-size-x-small;
   color: white;
   text-transform: none;
   & li:hover {
@@ -74,45 +74,6 @@ h2 {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: $brand-blue;
-}
-
-/* faces-of-governance */
-.faces-of-governance-hero {
-  max-width: 100%;
-  max-height: 400px;
-}
-.faces-of-governance-image {
-  position: relative;
-  padding: 0;
-  object-fit: cover;
-}
-
-.faces-of-governance-name {
-  position: absolute;
-  top: 120px;
-  left: 150px;
-  max-width: 20%;
-}
-
-.faces-of-governance-details {
-  padding-top: $spacer-sm;
-}
-
-.faces-of-governance-quote-box {
-  background-image: url('http://www.placepuppy.net/400/250');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: auto;
-}
-
-.faces-of-governance-quote-text:before,
-.faces-of-governance-quote-text:after {
-  content:'';
-  display: inline-block;
-  width: 40px;
-  height: 5px;
-  border-top: 1px solid black;
-  vertical-align: middle;
 }
 
 /* Graph fonts */

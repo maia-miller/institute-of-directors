@@ -12,4 +12,8 @@ export class NavigationLinksComponent implements OnInit {
   ngOnInit() {
   }
 
+  isTabDark() {
+    return window.location.pathname === '/home' ? 'darkTab' : 'lightTab'
+  }
+
 }
