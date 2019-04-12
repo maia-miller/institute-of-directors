@@ -14,14 +14,13 @@
   }
 
   > div {
-    margin: $spacer-md;
-    margin-top: $spacer-lg;
+    padding: $spacer-lg;
   }
 
   > div.lone-text {
     display: flex;
     height: 100%;
-    margin-top: 0;
+    margin-top: $spacer-md;
     align-items: center;
   }
 }

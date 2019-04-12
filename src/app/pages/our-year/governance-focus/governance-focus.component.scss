@@ -1,13 +1,34 @@
-ul {
-  list-style: none;
+@import '/../../../../styles';
+
+.hero-box-image {
+  background-image: url('/../../../assets/12_IOD corp focus/corp-focus-hero.svg');
 }
 
-li:not(:last-child) {
-  &::after {
-    content: '';
-    display: block;
-    border-bottom: 1px solid black;
-    margin-top: -10px;
-    margin-bottom: 10px;
+.clipped-box {
+  min-height: unset;
+
+  .row {
+    align-items: center;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li {
+      margin-bottom: 12px;
+      border-bottom: 1px white solid;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+      border-bottom: none;
+    }
+
+    .number {
+      display: inline-block;
+      font-size: $font-size-x-large;
+    }
   }
 }
