@@ -16,7 +16,8 @@ export class FacesOfGovernanceTemplateComponent implements OnInit {
   @Input() parathree: string;
   @Input() parafour: string;
   @Input() parafive: string;
-
+  @Input() image: string;
+  @Input() namecolor: string;
 
   constructor() { }
 
