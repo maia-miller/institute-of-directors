@@ -4,6 +4,17 @@
   color: white;
 }
 
+.map {
+  background-color: $brand-blue;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+
+  @media only screen and (min-width: 600px) {
+    background-image: url('/../assets/3_Our branch network/NZ-branch-map.png');
+  }
+}
+
 .growing-underline-on-load {
   width: 0px;
   height: $spacer-x-lg;
@@ -17,6 +28,10 @@
 }
 
 img {
-  height: 100%;
-  position: absolute;
+  display: none;
+
+  @media only screen and (max-width: 600px) {
+    display: inline-block;
+    max-height: 615px;
+  }
 }
