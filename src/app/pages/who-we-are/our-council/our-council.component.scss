@@ -1,3 +1,21 @@
+@import '/../../../../styles.scss';
+
+.our-council {
+  animation: ourcouncil 4s forwards;
+  @keyframes ourcouncil {
+    from { width: 0; }
+    to { width: 215px; }
+  }
+}
+
+.yearcouncil {
+  animation: yearcouncil 4s forwards;
+  @keyframes yearcouncil {
+    from { width: 0; }
+    to { width: 235px; }
+  }
+}
+
 h3 {
   &::after {
     content:'';
@@ -14,4 +32,41 @@ img {
   height: 100px;
   vertical-align: text-bottom;
   margin-right: 12px;
+}
+
+.clipped-box {
+  background-size: unset;
+  margin-bottom: $spacer-x-lg !important;
+}
+
+.greyBackground {
+  background-color: $brand-grey;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid white;
+    border-left: 80px solid $brand-grey;
+    width: 0;
+  }
+
+  > div {
+    padding-top: 80px;
+  }
+}
+
+.blueBackground {
+  background-color: $brand-blue;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    border-top: 80px solid white;
+    border-right: 80px solid $brand-blue;
+    width: 0;
+  }
+
+  > div {
+    padding-top: 80px;
+  }
 }
