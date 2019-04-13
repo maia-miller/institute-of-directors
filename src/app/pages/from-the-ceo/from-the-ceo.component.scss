@@ -20,6 +20,80 @@ h1:after {
   justify-content: center;
 }
 
+.nav-title {
+  font-size: $font-size-small;
+  margin-left: .25rem;
+}
+
+.ceo-hero-img {
+  background-image: url('/../../assets/6_From the CEO/Kristin.png');
+  min-height: 430px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid $brand-grey;
+    border-left: 80px solid transparent;
+    width: 0;
+  }
+}
+
+.white-box-right {
+  background-color: white;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    border-top: 80px solid $brand-grey;
+    border-right: 80px solid transparent;
+    width: 0;
+  }
+}
+
+h2 {
+  margin-bottom: 0 !important;
+}
+
+.line-wrapper {
+  margin-bottom: $spacer-sm;
+  @media only screen and (min-width: 992px) {
+    margin-bottom: $spacer-lg;
+  }
+
+  .line-container {
+    float: right;
+    height: 5px;
+    width: 118px;
+    display: none;
+
+    @media only screen and (min-width: 600px) {
+      margin-right: 6rem;
+      display: block;
+    }
+
+    @media only screen and (min-width: 768px) {
+      margin-right: 0.8rem;
+      display: block;
+    }
+
+    @media only screen and (min-width: 992px) {
+      margin-right: 4.5rem;
+      display: block;
+    }
+  }
+
+  .growing-underline-on-load {
+    animation: president 4s forwards;
+
+    @keyframes president {
+      from { width: 0; }
+      to { width: 118px; }
+    }
+  }
+}
+
 .body-text {
   background-color: white;
   padding: $spacer-lg;
