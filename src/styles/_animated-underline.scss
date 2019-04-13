@@ -1,3 +1,4 @@
+/* Navbar - grows on hover */
 .hover-underline {
   @media only screen and (min-width: 768px) {
     text-decoration: none;
@@ -28,4 +29,11 @@
       }
     }
   }
+}
+
+/* Title - grows on page load */
+.growing-underline-on-load {
+  width: 0px;
+  height: $spacer-x-lg;
+  border-top: 2px $brand-blue solid;
 }

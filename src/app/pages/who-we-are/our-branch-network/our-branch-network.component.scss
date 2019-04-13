@@ -1,5 +1,19 @@
+@import '/../../../../styles.scss';
+
 :host {
   color: white;
+}
+
+.growing-underline-on-load {
+  width: 0px;
+  height: $spacer-x-lg;
+  border-top: 2px white solid;
+  animation: ourbranch 4s forwards;
+
+  @keyframes ourbranch {
+    from { width: 0; }
+    to { width: 370px; }
+  }
 }
 
 img {

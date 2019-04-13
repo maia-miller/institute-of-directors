@@ -5,9 +5,9 @@ a {
   color: inherit;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: $font-size-2x-large;
-  margin-bottom: $spacer-lg;
 }
 
 .title {
@@ -35,7 +35,7 @@ h2 {
   }
   // $desktop-and-above
   @media only screen and (min-width: 992px) {
-    font-size: $font-size-x-large;
+    font-size: 1.25rem;
   }
 }
 
@@ -65,7 +65,7 @@ h2 {
 
 .small-body-text {
   font-family: 'IodSansLight', sans-serif;
-  font-size: $font-size-x-small;
+  font-size: $font-size-small;
 }
 
 .caption {

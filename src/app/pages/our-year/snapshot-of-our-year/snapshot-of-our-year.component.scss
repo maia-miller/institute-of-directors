@@ -1,5 +1,13 @@
 @import '/../../../../styles';
 
+.growing-underline-on-load {
+  animation: snapshot 4s forwards;
+  @keyframes snapshot {
+    from { width: 0; }
+    to { width: 365px; }
+  }
+}
+
 p {
   margin-bottom: 0;
 }

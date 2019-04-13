@@ -1,5 +1,13 @@
 @import '/../../../../styles.scss';
 
+.growing-underline-on-load {
+  animation: ourmembers 4s forwards;
+  @keyframes ourmembers {
+    from { width: 0; }
+    to { width: 245px; }
+  }
+}
+
 .ticker-number {
   font-size: 5rem;
 }
