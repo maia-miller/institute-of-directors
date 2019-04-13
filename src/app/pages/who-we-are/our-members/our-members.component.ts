@@ -11,7 +11,7 @@ export class OurMembersComponent implements OnInit {
 
   ngOnInit() {
     setTimeout(function(){
-        odometer.innerHTML = 9071;
+        document.getElementById("odometer").innerHTML = '9071';
     }, 1000);
   }
 
