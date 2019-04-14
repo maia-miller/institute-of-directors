@@ -1,9 +1,9 @@
 <h1 class="nav-title blue">Our Year</h1>
 <h2 class="title black">Snapshot of our year</h2>
 <div class="growing-underline-on-load"></div>
-<div class="row">
+<div class="row header-row">
   <div class="block-subtitle blue col-6 pl-0 d-flex align-items-center">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+    <p>Good governance is crucial to building a strong and vibrant New Zealand. The IoD is committed to improving governance best-practice and to providing our memers with tools and information that will help them succeed in their roles. Some of our key achievements for 2018 include:</p>
   </div>
   <div class="stat-block col-6">
     <div class="row header-stat white">
@@ -14,7 +14,7 @@
           <span class="million">million</span></p>
         </div>
         <div class="col-8 pl-0 d-flex align-items-center">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+          <p>Our surplus of $0.6m before income tax expense puts us in a strong position for the coming year as we complete our digital transformation project.</p>
         </div>
       </div>
   </div>
@@ -26,7 +26,7 @@
     <div *ngFor="let stat of thoughtLeadershipStats" class="{{ stat.col }}">
       <div class="stat-container">
         <app-stat-block
-        statClass="{{ stat.blockSize}}"
+        statClass="{{ stat.blockSize }}"
         statNumber="{{ stat.statNumber }}"
         statText="{{ stat.statText }}"
         statChange="{{ stat.statChange }}"
@@ -48,6 +48,8 @@
         statText="{{ stat.statText }}"
         statChange="{{ stat.statChange }}"
         description="{{ stat.description }}"
+        statTextTwo="{{ stat.statTextTwo }}"
+        secondStatNumber="{{ stat.secondStatNumber }}"
         ></app-stat-block>
       </div>
     </div>
@@ -64,7 +66,9 @@
         statNumber="{{ stat.statNumber }}"
         statText="{{ stat.statText }}"
         statChange="{{ stat.statChange }}"
+        statChangeClass="{{ stat.statChangeClass }}"
         description="{{ stat.description }}"
+        statDown="{{ stat.statDown }}"
         ></app-stat-block>
       </div>
     </div>
@@ -82,6 +86,8 @@
         statText="{{ stat.statText }}"
         statChange="{{ stat.statChange }}"
         description="{{ stat.description }}"
+        statUp="{{ stat.statUp }}"
+        descriptionUp="{{ stat.descriptionUp }}"
         ></app-stat-block>
       </div>
     </div>
@@ -95,6 +101,7 @@
         statText="{{ stat.statText }}"
         statChange="{{ stat.statChange }}"
         description="{{ stat.description }}"
+        statUp="{{ stat.statUp }}"
         ></app-stat-block>
       </div>
     </div>

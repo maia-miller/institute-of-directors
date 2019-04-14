@@ -26,9 +26,21 @@
   height: 100%;
 }
 
+.upside-down {
+  transform: scaleY(-1);
+
+  /* undo the flip of the text */
+  .stat-text {
+    transform: scaleY(-1);
+  }
+}
+
 /* Content */
 .stat-text {
   padding: $spacer-sm;
+  height: 100%;
+  align-content: center;
+  display: inline-grid;
 }
 
 .top-half {
@@ -46,23 +58,89 @@
   .top-half-text {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
     .number {
       display: inline-block;
-      vertical-align: top;
-      margin-right: 10px;
+      vertical-align: middle;
+      margin-right: 5px;
       margin-bottom: 0;
       font-size: $font-size-2x-large;
-    }
-
-    i {
-      display: inline-block;
-      margin-right: 5px;
-      vertical-align: bottom;
     }
 
     .stat-change {
       display: inline-block;
     }
+  }
+}
+
+i {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+.bottomhalf {
+  align-items: baseline;
+  display: inline-flex;
+  justify-content: center;
+}
+
+/* Exceptions */
+.first-col {
+  width: 70%;
+  display: flex;
+  align-items: center;
+
+  @media only screen and (min-width: 992px) {
+    width: 37%;
+  }
+}
+
+.statTextTwo {
+  width: 100%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.h-60 {
+  height: 100%;
+
+  @media only screen and (min-width: 992px) {
+    height: 65%;
+  }
+}
+
+.leftAlignedStatChange {
+  float: left;
+}
+
+.statDescription {
+  i {
+    vertical-align: sub;
+  }
+
+  p {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 8px;
+
+    @media only screen and (min-width: 992px) {
+      display: inline !important;
+      margin-right: 0;
+    }
+  }
+}
+
+.descriptionUp {
+  i {
+    vertical-align: sub;
+    margin-left: 5px;
+  }
+
+  p {
+    vertical-align: middle;
+    display: inline !important;
   }
 }

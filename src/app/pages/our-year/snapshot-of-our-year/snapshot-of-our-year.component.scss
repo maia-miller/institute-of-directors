@@ -28,37 +28,42 @@ h3 {
   background-image: url('/../../../assets/7_snapshot/Blu-double-wide.svg');
 }
 
-.header-stat {
-  padding: $spacer-sm;
-  align-items: center;
-  text-align: left;
+.row.header-row {
+  height: 200px;
 
-  .header-number {
-    display: flex;
+  .header-stat {
+    padding: $spacer-sm;
     align-items: center;
-    justify-content: center;
-    line-height: 0.9;
+    text-align: left;
+    height: 100%;
 
-    .dollar {
-      vertical-align: text-top;
-      font-size: $font-size-large;
-    }
+    .header-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 0.9;
 
-    .figure {
-      font-size: $font-size-2x-large
-    }
+      .dollar {
+        vertical-align: top;
+        font-size: $font-size-large;
+      }
 
-    .million {
-      font-size: $font-size-large;
-    }
+      .figure {
+        font-size: $font-size-2x-large
+      }
 
-    &::after {
-      content: '';
-      width: 1px;
-      min-height: 75px;
-      display: inline-block;
-      background-color: white;
-      margin-left: 15px;
+      .million {
+        font-size: $font-size-large;
+      }
+
+      &::after {
+        content: '';
+        width: 1px;
+        min-height: 75px;
+        display: inline-block;
+        background-color: white;
+        margin-left: 15px;
+      }
     }
   }
 }
@@ -70,13 +75,12 @@ h3 {
 }
 
 /* Page layout */
-
 .row {
-  height: 170px;
+  height: 330px;
   margin-bottom: $spacer-sm;
 
   &.tall-row {
-    height: 270px;
+    height: 420px;
   }
 
   > div {
@@ -88,8 +92,16 @@ h3 {
     margin: 0 $spacer-sm;
   }
 
-  >div:last-child {
+  > div:last-child {
     margin-right: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+
+    > div {
+      padding-bottom: $spacer-sm;
+    }
   }
 }
 

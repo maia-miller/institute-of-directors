@@ -13,7 +13,6 @@ export class NavbarComponent implements OnInit {
     router.events.subscribe( (event: Event) => {
       if (event instanceof NavigationStart) {
         this.isMenuExpanded = false;
-        console.log('navigation', this.isMenuExpanded)
       }
     })
   }

@@ -12,6 +12,12 @@ export class StatBlockComponent implements OnInit {
   @Input() statText;
   @Input() statChange;
   @Input() description;
+  @Input() statTextTwo;
+  @Input() secondStatNumber;
+  @Input() statChangeClass;
+  @Input() statDown;
+  @Input() statUp;
+  @Input() descriptionUp;
 
   constructor() { }
 

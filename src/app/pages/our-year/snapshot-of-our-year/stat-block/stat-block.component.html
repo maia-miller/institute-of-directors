@@ -1,20 +1,51 @@
 <div class="stat-block white {{ statClass }} {{ col }}">
   <div class="stat-text">
-
     <div class="top-half">
       <div class="top-half-text">
 
-        <p class="number title">{{ statNumber }}</p>
-        <div class="d-inline-block body-title">
-          <p class="mb-0">{{ statText }}</p>
-          <i class="fas fa-caret-up fa-2x light-blue"></i>
-          <p class="stat-change mb-1">{{ statChange }}</p>
+        <div *ngIf='statTextTwo; else regularStat' class="first-col">
+          <p class="number title">{{ statNumber }}</p>
+          <p class="body-title mb-0 d-inline-block statTextTwo">{{ statTextTwo }}</p>
         </div>
+        <ng-template #regularStat>
+          <p class="number title">{{ statNumber }}</p>
+        </ng-template>
 
+        <div *ngIf='statChangeClass; else regularStatDeets' class="text-left w-75">
+          <div class="d-inline-block body-title">
+            <p class="mb-0">{{ statText }}</p>
+            <div *ngIf='statChange' class="{{ statChangeClass }}">
+              <i class="fas fa-caret-up fa-2x light-blue"></i>
+              <p class="stat-change mb-1">{{ statChange }}</p>
+            </div>
+          </div>
+        </div>
+        <ng-template #regularStatDeets>
+          <div>
+            <p class="number title d-inline-block">{{ secondStatNumber }}</p>
+          </div>
+          <div class="d-inline-block body-title">
+            <p class="mb-0">{{ statText }}</p>
+            <i *ngIf="statChange" class="fas fa-caret-up fa-2x light-blue"></i>
+            <p *ngIf="statChange" class="stat-change mb-1">{{ statChange }}</p>
+          </div>
+        </ng-template>
       </div>
     </div>
 
-    <div class="bottom-half">
+    <div *ngIf='statChange' class="bottomhalf">
+      <p>{{ description }}</p>
+      <div *ngIf='descriptionUp' class="descriptionUp">
+        <i class="fas fa-caret-up fa-2x light-blue"></i>
+        <p>{{ descriptionUp }}</p>
+      </div>
+    </div>
+    <div *ngIf='statUp' class="statDescription mb-5">
+      <i class="fas fa-caret-up fa-2x light-blue"></i>
+      <p>{{ description }}</p>
+    </div>
+    <div *ngIf='statDown' class="statDescription">
+      <i class="fas fa-caret-down fa-2x light-blue"></i>
       <p>{{ description }}</p>
     </div>
   </div>
