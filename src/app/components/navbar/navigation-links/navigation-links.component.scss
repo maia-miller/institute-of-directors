@@ -84,8 +84,11 @@ li {
   }
 }
 
-.darkTab,
-.darkTab:hover {
+.darkTab.dropdown:hover {
+  background-color: $brand-blue-dark;
+}
+
+.darkTab.option {
   color: white;
   background-color: $brand-blue-dark;
 }

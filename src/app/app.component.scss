@@ -27,20 +27,20 @@
 }
 
 .committeesBackgroundImage {
-  // background-image: url('/../assets/1_homepage/Background image.svg');
+  background-image: url('/../assets/committees-background.png');
 }
 
 .membersBackgroundImage {
-  // background-color: $brand-grey;
   background: url('/../assets/4_Our members/Our-members-background-image.svg');
 }
 
 .snapshotBackgroundImage {
-  background-image: url('/../assets/7_snapshot/snapshot-background.svg');
+  background-image: url('/../assets/7_snapshot/snapshot_background-image.png');
+  background-position: bottom;
 }
 
 .raisingStandardsBackgroundImage {
-  background-image: url('/../assets/9_raising standards/Raising-background.svg');
+  background-image: url('/../assets/9_raising standards/Raising-standards-background.png');
   background-size: unset;
   background-position: bottom;
 }
