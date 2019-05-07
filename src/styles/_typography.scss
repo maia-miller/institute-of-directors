@@ -27,6 +27,7 @@ h2,
 .block-subtitle {
   font-family: 'IodSerif', serif;
   color: $brand-blue;
+  padding-bottom: 1px;
   // $mobile-and-below
   font-size: $font-size-medium;
   // $portrait-tablet-and-above
@@ -42,26 +43,33 @@ h2,
 .nav-title {
   font-family: 'IodSansBold', sans-serif;
   text-transform: uppercase;
-  font-size: $font-size-x-small;
+  font-size: 10px;
 }
 
 .nav-subtitle {
   font-family: 'IodSansBold';
-  font-size: $font-size-x-small;
+  font-size: 1em;
   color: white;
   text-transform: none;
   & li:hover {
     color: $brand-blue-light;
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     font-family: 'IodSansLight';
   }
 }
 
 .body-title {
+  padding-top: 12px;
   font-family: 'IodSansBold', sans-serif;
   font-size: inherit;
 }
+
+.body-title-nsp {
+  font-family: 'IodSansBold', sans-serif;
+  font-size: inherit;
+}
+
 
 .small-body-text {
   font-family: 'IodSansLight', sans-serif;
@@ -69,11 +77,16 @@ h2,
 }
 
 .caption {
-  font-family: 'IodSerifRegIt', serif;
-  font-size: $font-size-small;
+  font-style: italic;
+  font-family: serif;
+  font-size: 13px;
   margin: auto;
   margin-bottom: $spacer-sm;
   text-align: center;
+}
+
+.faces-underline {
+  border-bottom: 3px solid $brand-blue;
 }
 
 .long-underline {
@@ -87,11 +100,11 @@ h2,
 }
 
 /* Graph fonts */
-.graph-title {
-  font-family: 'IodSerifMed', serif;
+.graph-title,
+.odometer-value {
+  font-family: 'IodSerifMed', serif !important;
   font-size: $font-size-2x-large;
 }
-
 .graph-text {
   font-family: 'IodSans', sans-serif;
 }

@@ -4,12 +4,17 @@
   animation: ourmembers 4s forwards;
   @keyframes ourmembers {
     from { width: 0; }
-    to { width: 245px; }
+    to { width: 230px; }
   }
 }
 
 .ticker-number {
-  font-size: 5rem;
+  white-space: nowrap;
+  font-size: 7rem;
+  font-family: sans-serif;
+  line-height: normal;
+  letter-spacing: 0.035ch;
+  font-weight: 500;
 }
 
 .ticker-subtitle:before {
@@ -22,6 +27,12 @@
 }
 
 img {
-  height: 150px;
+  height: 250px;
   margin-bottom: $spacer-lg;
+  @media only screen and (max-width: 1000px) {
+    height: 200px;
+    }
+  @media only screen and (max-width: 600px) {
+    height: 150px;
+    }
 }

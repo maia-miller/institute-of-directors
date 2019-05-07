@@ -2,10 +2,29 @@
   animation: inspire 5s forwards;
   @keyframes inspire {
     from { width: 0; }
-    to { width: 250px; }
+    to { width: 230px; }
+  }
+}
+
+.lone-text {
+  @media only screen and (max-width: 600px) {
+    // margin to center on mobile
+    margin-left: 50% !important;
   }
 }
 
 .hero-box-image {
-  background-image: url('/../../../assets/11_Build engagement/build-hero.svg');
+  background-image: url('/../../../assets//core.png');
+  height: 480px;
+
+  @media only screen and (max-width: 600px) {
+  height: auto;
+  }
 }
+
+.core-head-quote {
+   padding-bottom:30px;
+   @media only screen and (max-width: 600px) {
+   font-size:1.3em;
+   }
+ }

@@ -4,7 +4,7 @@
   animation: ourcouncil 4s forwards;
   @keyframes ourcouncil {
     from { width: 0; }
-    to { width: 215px; }
+    to { width: 200px; }
   }
 }
 
@@ -12,7 +12,7 @@
   animation: yearcouncil 4s forwards;
   @keyframes yearcouncil {
     from { width: 0; }
-    to { width: 235px; }
+    to { width: 220px; }
   }
 }
 
@@ -28,10 +28,11 @@ h3 {
 
 img {
   border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   vertical-align: text-bottom;
   margin-right: 12px;
+  margin-top: 50px;
 }
 
 .clipped-box {
