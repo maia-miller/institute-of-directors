@@ -2,8 +2,6 @@
 //Install express server
 const express = require('express');
 const path = require('path');
-//wwwhisper
-const wwwhisper = require('connect-wwwhisper');
 
 const app = express();
 
@@ -11,7 +9,6 @@ const app = express();
 app.use(express.static(__dirname + '/dist/institute-of-directors'));
 // app holds a reference to express or connect framework, it
 // may be named differently in your source file.
-app.use(wwwhisper());
 
 app.get('/*', function(req,res) {
 
