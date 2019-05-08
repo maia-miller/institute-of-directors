@@ -1,6 +1,5 @@
 @import '../../../../styles';
 
-@media only screen and (min-width: 770px) {
 :host {
   margin-left: auto;
 }
@@ -20,22 +19,26 @@ ul {
   float: right;
   min-width: 130px;
 
+  @media only screen and (min-width: 768px) {
     padding-top: $spacer-md;
 
     &:hover {
       background-color: $brand-grey-dark;
     }
+  }
 }
 
 .option {
-  display:none;
+  display: none;
   z-index: 3;
+  @media only screen and (min-width: 768px) {
     color: $brand-blue;
     position: absolute;
     margin-top: 4px;
     width: 100%;
     right: 0;
     background-color: $brand-grey-dark;
+  }
 }
 
 .dropdown:hover .option {
@@ -46,21 +49,21 @@ li {
   padding: 10px;
   padding-left: 0px;
   flex-basis: 0;
-  @media only screen and (min-width: 770px) {
+  @media only screen and (min-width: 768px) {
     text-align: center;
     padding-left: 10px;
   }
 
   span {
     padding-left: $spacer-md;
-    @media only screen and (min-width: 770px) {
+    @media only screen and (min-width: 768px) {
       padding-left: 0;
     }
   }
 
   li {
     padding-left: $spacer-lg;
-    @media only screen and (min-width: 770px) {
+    @media only screen and (min-width: 768px) {
       padding-left: 10px;
     }
   }
@@ -68,13 +71,17 @@ li {
 
 .down-arrow::after {
   content:'';
-  display: none;
+  display: inline-block;
   background-image: url('/../../../assets/1_homepage/homepage-triangle.svg');
   width: 9px;
   height: 9px;
   background-repeat: no-repeat;
   margin-left: 5px;
   transform: rotate(180deg);
+
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .darkTab.dropdown:hover {
@@ -84,5 +91,4 @@ li {
 .darkTab.option {
   color: white;
   background-color: $brand-blue-dark;
-}
 }
