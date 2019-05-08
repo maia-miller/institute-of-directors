@@ -19,12 +19,17 @@ nav {
     &.hamburger-menu {
       display: none;
     }
+
     &.navbar {
       display: block;
       color: $brand-blue;
       background-color: transparent;
       margin-bottom: $spacer-lg;
       padding-top: 0;
+    }
+
+    &.financial {
+      display: inline-block;
     }
   }
 }

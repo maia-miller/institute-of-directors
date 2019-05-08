@@ -92,3 +92,14 @@ li {
   color: white;
   background-color: $brand-blue-dark;
 }
+
+// Download financials
+.financial {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .financial {
+    display: inline-block;
+  }
+}
